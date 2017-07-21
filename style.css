@@ -1,0 +1,29 @@
+body{
+  background-color: rgba(168, 255, 211, 0.9);
+  text-align: center;
+}
+
+form{
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+height: 80%;
+  max-width: 320px;
+  max-height: 320px;
+
+}
+
+input{
+margin: 5px;
+}
+
+.link{
+  width: 20%
+  max-width: 160px;
+  margin: 0px 20px;
+  background-color: rgb(13, 133, 9)
+}
+
+header{
+  background-color: rgb(22, 166, 17);
+}
