@@ -1,8 +1,8 @@
 var app = angular.module('madlibs');
 
-app.config(function($routeProvider){
+app.config(function($routeProvider) {
   $routeProvider
-    .when('/input',{
+    .when('/input', {
       controller: 'inputController',
       templateUrl: 'input.html'
     })
@@ -10,5 +10,7 @@ app.config(function($routeProvider){
       controller: 'outputCtrl',
       templateUrl: 'madlib.html'
     })
-    .otherwise({ redirectTo: '/input'});
+    .otherwise({
+      redirectTo: '/input'
+    });
 });
